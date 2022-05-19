@@ -1,15 +1,5 @@
 # auto generated pipeline
 
-[![Sonar Coverage](https://sonar.wal-mart.com/api/project_badges/measure?project=com.walmart.reusablecode.graph.style.pipeline.framework&metric=coverage)](https://sonar.looper.prod.walmartlabs.com/dashboard?id=com.walmart.reusablecode.graph.style.pipeline.framework) 
-[![Sonar Bugs](https://sonar.wal-mart.com/api/project_badges/measure?project=com.walmart.reusablecode.graph.style.pipeline.framework&metric=bugs)](https://sonar.looper.prod.walmartlabs.com/dashboard?id=com.walmart.reusablecode.graph.style.pipeline.framework) 
-[![Sonar Security](https://sonar.wal-mart.com/api/project_badges/measure?project=com.walmart.reusablecode.graph.style.pipeline.framework&metric=vulnerabilities)](https://sonar.looper.prod.walmartlabs.com/dashboard?id=com.walmart.reusablecode.graph.style.pipeline.framework) 
-[![Sonar Reliability Rating](https://sonar.wal-mart.com/api/project_badges/measure?project=com.walmart.reusablecode.graph.style.pipeline.framework&metric=reliability_rating)](https://sonar.looper.prod.walmartlabs.com/dashboard?id=com.walmart.reusablecode.graph.style.pipeline.framework) 
-[![Sonar Security Rating](https://sonar.wal-mart.com/api/project_badges/measure?project=com.walmart.reusablecode.graph.style.pipeline.framework&metric=security_rating)](https://sonar.looper.prod.walmartlabs.com/dashboard?id=com.walmart.reusablecode.graph.style.pipeline.framework) 
-[![Sonar Tech Debt](https://sonar.wal-mart.com/api/project_badges/measure?project=com.walmart.reusablecode.graph.style.pipeline.framework&metric=sqale_index)](https://sonar.looper.prod.walmartlabs.com/dashboard?id=com.walmart.reusablecode.graph.style.pipeline.framework) 
-
-
-[![Quality Gate](https://sonar.wal-mart.com/api/project_badges/quality_gate?project=com.walmart.reusablecode.graph.style.pipeline.framework)](https://sonar.looper.prod.walmartlabs.com/dashboard?id=com.walmart.reusablecode.graph.style.pipeline.framework)
-
 
 ## Check Style
 - flake configuration file `.flake`
