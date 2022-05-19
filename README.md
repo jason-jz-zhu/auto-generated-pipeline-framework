@@ -1,5 +1,7 @@
 # auto generated pipeline
 
+## Prerquest
+- Please install databathing `pip install databathing`
 
 ## Check Style
 - flake configuration file `.flake`
