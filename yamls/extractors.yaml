@@ -1,0 +1,17 @@
+---
+ sources: 
+  - name: "author"
+    type: "orc"
+    path: "data/author/"
+  - name: "book"
+    type: "orc"
+    path: "data/book/"
+  - name: "editor"
+    type: "orc"
+    path: "data/editor/"
+  - name: "translator"
+    type: "orc"
+    path: "data/translator/"
+  # - name: "test"
+  #   type: "bigquery"
+  #   query: "select * from test"
