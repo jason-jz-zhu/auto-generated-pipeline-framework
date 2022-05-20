@@ -23,6 +23,6 @@
 
 ## How to run
 python workflowRunner.py \
---extracts_yaml="/Users/j0z04f2/Desktop/code/databathing_wrapper/yamls/extractors.yaml" \
---transforms_yaml="/Users/j0z04f2/Desktop/code/databathing_wrapper/yamls/transforms.yaml" \
---loaders_yaml="/Users/j0z04f2/Desktop/code/databathing_wrapper/yamls/loaders.yaml"
+--extracts_yaml="yamls/extractors.yaml" \
+--transforms_yaml="yamls/transforms.yaml" \
+--loaders_yaml="yamls/loaders.yaml"
