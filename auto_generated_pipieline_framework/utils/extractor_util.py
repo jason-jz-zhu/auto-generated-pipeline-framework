@@ -7,6 +7,9 @@ def generate_extractor_stmt(sources):
         if source["type"] == "orc":
             extractors_str += "global {}\n".format(source["name"])
             extractors_str += "{} = spark_global.read.{}(\"{}\")\n".format(source["name"], source["type"], source["path"])
+        elif source["type"] == "postgres":
+            extractors_str += "global {}\n".format(source["name"])
+            extractors_str += "{} = spark_global.read.format(\"jdbc\").option(\"url\", \"jdbc:postgresql://{}:{}/{}\").option(\"dbtable\", \"{}\").option(\"user\", \"{}\").option(\"password\", \"{}\").option(\"driver\", \"org.postgresql.Driver\").load()\n".format(source["name"], source["host"], source["port"], source["database"], source["table"], source["user"], source["password"])
         elif source["type"] == "bigquery":
             print("bigquery: have not yet implemented, will do soon!!!")
         elif source["type"] == "mssql":

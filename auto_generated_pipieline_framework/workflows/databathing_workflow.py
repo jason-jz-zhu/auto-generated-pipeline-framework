@@ -68,8 +68,8 @@ def transform(flag):
 def loader(flag):
     LOG.info(f"databathing_workflow: loader")
     try:
-        exec("fact_dim_df.show()")
-        exec("agg_df.show()")
+        # exec("fact_dim_df.show()")
+        # exec("agg_df.show()")
 
         loaders_stream = open(df_storage.yaml_storage["loaders"], 'r')
         loaders_dict = yaml.safe_load(loaders_stream)

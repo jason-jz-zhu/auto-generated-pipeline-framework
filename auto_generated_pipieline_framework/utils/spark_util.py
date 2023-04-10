@@ -16,7 +16,8 @@ def init_spark(project_name, env='root'):
     global spark
 
     if env != 'root':
-        os.environ['PYSPARK_SUBMIT_ARGS'] = """--jars gcs-connector-hadoop2-latest.jar pyspark-shell"""
+        # os.environ['PYSPARK_SUBMIT_ARGS'] = """--jars gcs-connector-hadoop2-latest.jar pyspark-shell"""
+        os.environ['PYSPARK_SUBMIT_ARGS'] = """--jars /Users/jiazhenzhu/Desktop/code/auto-generated-pipeline-framework/jars/postgresql-42.3.7.jar pyspark-shell"""
     spark_conf = SparkConf().setAppName(project_name).setAll(spark_conf_setting.spark_conf_setting)
     sc = SparkContext(conf=spark_conf)
 
